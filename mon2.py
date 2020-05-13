@@ -37,8 +37,8 @@ z = str(localtime[3])
 y = str(localtime[4])
 
 cmd = 'sensorsNearby'
-uuid = '6ce5e6b78477f27084cc524599fc5930'  # narodmon
-api_key = '09XImZqvP6g6U'  # narodmon
+uuid = '***********************'  # narodmon
+api_key = '*****************'  # narodmon
 # Ленинск-Кузнецкий     lat=54&lon=86
 lat = '54.65'  # Home 9  86.184826%2C54.681399
 lng = '86.18'  # Home 9  lat=54.643689&lon=86.199094
@@ -50,7 +50,7 @@ lngo = '36'
 lang = 'ru'
 radius = 50
 types = '1,2'
-appid = 'c7a1cf340957cc2f610b91e2993f3d2a'
+appid = '******************************'
 
 #getapiuri = 'http://narodmon.ru/api/sensorsNearby?lat=54.65&lng=86.18&radius=50&types=1,2&uuid=6ce5e6b78477f27084cc524599fc5930&api_key=09XImZqvP6g6U&lang=ru'
 geturi = f'http://narodmon.ru/api/sensorsNearby?lat={lat}&lng={lng}&radius={radius}&uuid={uuid}&api_key={api_key}&lang={lang}'
